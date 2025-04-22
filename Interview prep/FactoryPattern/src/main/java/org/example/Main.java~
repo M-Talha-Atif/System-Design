@@ -1,0 +1,22 @@
+package org.example;
+
+import org.example.e1.entities.Os;
+import org.example.e1.factory.OsFactory;
+
+public class Main {
+    public static void main(String[] args) {
+
+        // using the factory pattern
+        Os os = OsFactory.makeObject("windows");
+        os.features();
+
+        os = OsFactory.makeObject("android");
+        os.features();
+
+        os = OsFactory.makeObject("apple");
+        os.features();
+
+        os = OsFactory.makeObject("linux");
+        os.features();
+    }
+}

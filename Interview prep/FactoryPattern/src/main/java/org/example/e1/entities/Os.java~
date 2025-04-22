@@ -1,0 +1,4 @@
+package org.example.e1;
+
+public interface Os {
+}
