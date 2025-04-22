@@ -23,7 +23,7 @@ public class Main {
 
 
 
-        // using the factoyr pattern for Ride sharing real time system
+        // using the factory pattern for Ride sharing real time system
 
         Vehicle v1 = VehicleFactory.getVehicle("car");
         Vehicle v2 = VehicleFactory.getVehicle("bike");
